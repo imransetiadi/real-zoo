@@ -1,0 +1,499 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2739,
+      "max": [
+        1.030498743057251,
+        0.1905834823846817,
+        0.99301570653915405
+      ],
+      "min": [
+        -1.0491002798080444,
+        -0.0096310200169682503,
+        -1.0011491775512695
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32868,
+      "componentType": 5126,
+      "count": 2739,
+      "max": [
+        0.99938726425170898,
+        0.99999856948852539,
+        0.99998122453689575
+      ],
+      "min": [
+        -0.99988049268722534,
+        -0.97634834051132202,
+        -0.99992775917053223
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2739,
+      "max": [
+        0.99671852588653564,
+        0.9993552565574646,
+        0.99998736381530762,
+        1
+      ],
+      "min": [
+        -0.99983692169189453,
+        -0.99999904632568359,
+        -0.99730819463729858,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2739,
+      "max": [
+        0.92971897125244141,
+        0.99562102556228638
+      ],
+      "min": [
+        0.011718999594449997,
+        0.0039060115814208984
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 13470,
+      "max": [
+        2738
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 65736,
+      "componentType": 5126,
+      "count": 13063,
+      "max": [
+        1.439702033996582,
+        1.8864119052886963,
+        0.20960824191570282
+      ],
+      "min": [
+        -1.497306227684021,
+        0.3729686439037323,
+        -0.42858773469924927
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 222492,
+      "componentType": 5126,
+      "count": 13063,
+      "max": [
+        0.99993085861206055,
+        0.99945974349975586,
+        0.99999195337295532
+      ],
+      "min": [
+        -0.99909067153930664,
+        -0.99984264373779297,
+        -0.99990236759185791
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 43824,
+      "componentType": 5126,
+      "count": 13063,
+      "max": [
+        0.99988055229187012,
+        0.99994903802871704,
+        0.99970430135726929,
+        1
+      ],
+      "min": [
+        -0.99888324737548828,
+        -0.99988311529159546,
+        -0.99996471405029297,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 21912,
+      "componentType": 5126,
+      "count": 13063,
+      "max": [
+        0.99813300371170044,
+        0.99975097179412842
+      ],
+      "min": [
+        0.0009899999713525176,
+        0.0014530420303344727
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 53880,
+      "componentType": 5125,
+      "count": 48507,
+      "max": [
+        13062
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 379248,
+      "componentType": 5126,
+      "count": 296,
+      "max": [
+        0.90148413181304932,
+        0.8158448338508606,
+        0.020999999716877937
+      ],
+      "min": [
+        -0.020999999716877937,
+        -0.38902920484542847,
+        -0.042305245995521545
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 382800,
+      "componentType": 5126,
+      "count": 296,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 252832,
+      "componentType": 5126,
+      "count": 296,
+      "max": [
+        1,
+        0.5913359522819519,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -0.59133613109588623,
+        -1,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 247908,
+      "componentType": 5125,
+      "count": 864,
+      "max": [
+        295
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "artorius (https://sketchfab.com/artorius)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/bfa820aea52b46ea8767661d78db4374",
+      "title": "Dried piranha"
+    },
+    "generator": "Sketchfab-3.20.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 251364,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 126416,
+      "byteOffset": 251364,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 386352,
+      "byteOffset": 377780,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 257568,
+      "byteOffset": 764132,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1021700,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Prise_1_25k_baseColor.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Prise_1_25k",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Metal_-_Titanium_Black",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.42857099999999998,
+          0.42857099999999998,
+          0.42857099999999998,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Base_Prise_1_(25k)_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Prise_1__25k__Poisson_Prise_1_(25k)_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cylinder_2_Metal - Titanium Black_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12
+          },
+          "indices": 13,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Piranha.c4d 2.fbx"
+    },
+    {
+      "children": [
+        4,
+        6,
+        8
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "Base"
+    },
+    {
+      "mesh": 0,
+      "name": "Base_Prise_1_(25k)_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "name": "Prise_1__25k__Poisson"
+    },
+    {
+      "mesh": 1,
+      "name": "Prise_1__25k__Poisson_Prise_1_(25k)_0"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        0.90525952847420932,
+        -0.42478407210349656,
+        -0.0079798617672010956,
+        0,
+        0.4247957723806276,
+        0.90464102358233878,
+        0.034251572510534158,
+        0,
+        -0.0073306121298465105,
+        -0.034396373923275166,
+        0.99938138445076707,
+        0,
+        -0.31331756711006165,
+        0.45769795775413513,
+        0.0039163269102573395,
+        1
+      ],
+      "name": "Cylinder_2"
+    },
+    {
+      "mesh": 2,
+      "name": "Cylinder_2_Metal - Titanium Black_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+
