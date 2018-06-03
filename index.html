@@ -16,6 +16,7 @@
     <a-scene embedded arjs='detectionMode: mono_and_matrix; matrixCodeType: 3x3; debugUIEnabled: false;'>
         <a-asset-item id="drone" src="aframe/assets/busterDrone/busterDrone.gltf"></a-asset-item>
         <a-asset-item id="ayam" src="aframe/assets/ayam/ayam.gltf"></a-asset-item>
+        <a-asset-item id="piranha" src="aframe/assets/piranha/scene.gltf"></a-asset-item>
 
 
         <a-marker type="barcode" value='6'>        
@@ -39,6 +40,12 @@
         <a-marker type='barcode' value='32'>
             <a-plane width="1" height="1" position='0 0 0' rotation="-90 0 0" color="cyan">
                 <a-gltf-model src="#drone" rotation="90 0 0" position='0 -0.2 1' scale="0.5 0.5 0.5"></a-gltf-model>
+            </a-plane>
+        </a-marker>
+        
+         <a-marker type='barcode' value='18'>
+            <a-plane width="1" height="1" position='0 0 0' rotation="-90 0 0" color="white">
+                <a-gltf-model src="#piranha" rotation="90 0 0" position='0 -0.2 1' scale="0.5 0.5 0.5"></a-gltf-model>
             </a-plane>
         </a-marker>
         
