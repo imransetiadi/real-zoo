@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+    <title>AR.js: Dynamic Content</title>
+    <script src="./library/aframe.min.js"></script>
+    <!-- include aframe-ar.js -->
+    <script src="./library/aframe-ar.js"></script>
+
+</head>
+
+<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
+
+    <a-scene embedded arjs='detectionMode: mono_and_matrix; matrixCodeType: 3x3; debugUIEnabled: false;'>
+        <!-- add a simple camera -->
+        <a-entity camera></a-entity>
+        <a-marker type="barcode" value=23>
+             <a-plane width="4" height="4" position='0 0 0' rotation="-90 0 0" color="gray">
+             </a-plane>
+        </a-marker>
+        <a-marker type="barcode" value=24>
+             <a-plane width="4" height="4" position='0 0 0' rotation="-90 0 0" color="white">
+             </a-plane>
+        </a-marker>
+    </a-scene>
+    <script>
+        // Fungsi membuat obyek tulisan pada a-frame
+        function listRuang(matkul, scenel) {
+            for (let i = 0; i < matkul.length; i++) {
+                let marker = document.createElement("a-marker");
+                marker.setAttribute("type", "barcode");
+                marker.setAttribute("value", i + 23);
+                let labelRuangan = document.createElement('a-text');
+                let labelRuangan2 = document.createElement('a-text');
+                let informasi = "";
+                let judul = "";
+                judul += "Jadwal Ruang " + matkul[i].ruang;
+                informasi += matkul[i].nama + "  " + matkul[i].waktu ;
+                labelRuangan2.setAttribute('value', judul);
+                labelRuangan2.setAttribute('rotation', '-90 0 0');
+                labelRuangan2.setAttribute('color', 'black');
+                labelRuangan2.setAttribute('position', '0 0 -1.7');
+                labelRuangan2.setAttribute('align', 'center');
+
+                labelRuangan.setAttribute('value', informasi);
+                labelRuangan.setAttribute('rotation', '-90 0 0');
+                labelRuangan.setAttribute('color', 'green');
+                labelRuangan.setAttribute('align', 'center');
+                marker.appendChild(labelRuangan);
+                marker.appendChild(labelRuangan2)
+                scenel.appendChild(marker);
+            }
+        }
+
+        // Variabel penampung nilai dari server
+        var ruanganJSON = {};
+
+        // mengakses DOM scene
+        scene = document.querySelector("a-scene");
+
+        // Mengambil data JSON dari server
+        var url = './dispatcher/data.json'; // URL dari data JSON
+        fetch(url)
+            .then((resp) => resp.json())
+            .then(function(data) {
+                ruanganJSON = data; // isi nilai data dengan yang dari server
+                listRuang(ruanganJSON, scene); // membuat obyek
+
+            })
+            .catch(function(error) {
+                console.log(JSON.stringify(error));
+            });
+    </script>
+</body>
+
+</html>
